@@ -1,14 +1,16 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
-
-// Variables
-@import 'variables';
-
+ 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
-
-
+@import 'node_modules/bootstrap/scss/bootstrap';
+ 
+$brown: #a52a2a;
+$yellow: #ffc107;
+ 
 .brown {
-    background-color: brown !important;
+   background-color: $brown;
 }
  
+.text-yellow {
+   color: $yellow;
+}

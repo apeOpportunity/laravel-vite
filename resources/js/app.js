@@ -1,3 +1,7 @@
 import './bootstrap';
 
-alert("hello you!"); 
+import Alpine from 'alpinejs';
+
+window.Alpine = Alpine;
+
+Alpine.start();
